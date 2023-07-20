@@ -11,8 +11,7 @@ comment:  This document is a simple LiaScript course example.
 
 -->
 
-# AP Statistics
-
+# Data Analysis
 ## Pre-Assessment Quiz
 
 Before we dive into the topics covered in this module, it's important to evaluate your current understanding of AP Statistics. Take this pre-assessment quiz to gauge your knowledge and pinpoint areas where you may need to focus your study.
@@ -92,27 +91,178 @@ In the Pre-Assessment Quiz, you will be asked a series of multiple-choice questi
   [[?]] Remember that R² is used to measure the goodness of fit of a regression model
 
 
-## Introduction
+# Week One Assignment Study Guide
 
-In this module, we will be learning the basics of AP Statistics, which is an essential branch of mathematics that deals with the collection, analysis, interpretation, presentation, and organization of data. This module is designed for students who are preparing for the AP Statistics exam or want to improve their understanding of statistics.
+## 1. Understanding the Assignment
+- Brief overview of the assignment
+- Importance of reading and understanding each question
+- Guidance on the format of responses: using an Excel page
 
-## Topics
+## 2. Working with Data
+- Adding a new column to the database for annual sales
+- Calculation methods for obtaining annual sales (Square feet * Sales per square foot)
 
-### 1. Exploring Data
+## 3. Descriptive Statistics
+- Calculating mean, standard deviation, skew, and interquartile range
+- Using built-in Excel formulas for each calculation:
+  - Mean: `AVERAGE(range)`
+  - Standard Deviation: `STDEV.S(range)`
+  - Skew: `SKEW(range)`
+  - Interquartile Range: `QUARTILE.INC(range, 3) - QUARTILE.INC(range, 1)`
+- Replicating formulas across columns in Excel
 
-In this section, we will learn about data exploration techniques, including graphical displays, summary statistics, and the importance of data transformations.
+## 4. Data Visualization with Boxplot
+- Procedure to create a boxplot for the annual sales variable
+- How to adjust the placement of the boxplot
+- Interpreting boxplots and identifying outliers
 
-### 2. Sampling and Experimentation
+## 5. Data Visualization with Histogram
+- Procedure to create a histogram for the sales per square foot variable
+- Customizing the histogram, including adjusting the chart title
+- Interpretation of histograms, including assessing symmetry and skewness
 
-In this section, we will explore sampling techniques, experimental design, and the implications of sampling and experimentation on data analysis.
+## 6. Answering Assignment Questions
+- Location and format for written answers in Excel
+- Importance of addressing each part of each question
+- Examples of questions to be answered (distribution, skewness, outliers)
 
-### 3. Probability and Probability Distributions
+## 7. Grading Expectations
+- Point value assigned to each question
+- Importance of fully addressing each question to earn maximum points
 
-In this section, we will study probability and probability distributions, covering basic probability concepts, discrete and continuous probability distributions, and the Central Limit Theorem.
+## 8. Communication with Instructor
+- Encouragement to ask questions or seek clarification as needed
+- Instructor’s wishes for student success on the assignment
 
-### 4. Statistical Inference
 
-In this section, we will investigate statistical inference, focusing on confidence intervals, hypothesis testing, and comparing two populations.
+# Scatter Plot and Regression Analysis Study Guide
+
+## 1. Introduction
+- Purpose and relevance of scatter plots and regression analysis in data interpretation.
+
+## 2. Data Selection
+- Choosing appropriate variables for analysis: dependent and independent variables.
+- Example with bachelor's degree vs sales per square foot.
+
+## 3. Creating Scatter Plot
+- How to create a scatter plot using Excel:
+    - Selecting relevant data.
+    - Navigating to the "Insert" tab.
+    - Choosing scatter plot from the available chart options.
+
+## 4. Fitting Regression Line
+- Steps to add trend line to the scatter plot.
+- Configuring trend line options:
+    - Displaying equation on the chart.
+    - Displaying R square value on the chart.
+
+## 5. Reading the Scatter Plot
+- Interpreting the R square value and regression equation.
+- Significance and implications of these results in a sample data set.
+
+## 6. Conducting Regression Analysis Using Data Analysis ToolPak
+- Navigating to the Data Analysis ToolPak in Excel.
+- Choosing "Regression" from the list of available analysis tools.
+- Selecting y-axis (dependent variable) and x-axis (independent variable).
+- Observing output of regression analysis, including R square value, model, intercept and slope.
+
+## 7. Future Value Prediction Using Regression Equation
+- Example calculation to predict the future value of y based on a given independent variable value.
+
+## 8. Interpreting the Regression Output
+- Explanation of t-statistics and p-value.
+- Hypothesis testing using p-value:
+    - Criteria for rejecting or failing to reject null hypothesis.
+    - Interpretation of results in this context.
+
+## 9. Model Significance
+- Explanation of significance level for the entire model.
+- Conditions for rejecting or failing to reject null hypothesis regarding model significance.
+
+## 10. Conclusion
+- Final words and encouragement to use personal data sets for practice.
+
+# Week 3 Study Guide
+
+## Chapter 1: Understanding Hypothesis Testing
+- Definition and purpose of hypothesis testing.
+- Explanation of null and alternative hypotheses.
+- Understanding the concept of a Type I and Type II error.
+- Importance of the significance level and its implication in hypothesis testing.
+
+## Chapter 2: Types of Hypothesis Tests
+- One-sample Z-test and T-test: When and why to use them.
+- Independent samples T-test: Understanding its application and interpretation.
+- Paired sample T-test: Knowing when it is appropriate and how to interpret the results.
+- Chi-square test: Understanding its use in categorical data.
+
+## Chapter 3: Practical Application of Hypothesis Testing
+- Step-by-step walkthrough of performing a Z-test, including data arrangement, formula application, and interpretation.
+- Detailed guide on conducting a T-test with practical examples.
+- Hands-on practice with Chi-square test using a sample dataset.
+- Explaining potential errors and misinterpretations when performing hypothesis tests.
+
+## Chapter 4: Decision Making with Hypothesis Testing
+- Interpreting the results of a hypothesis test: Understanding the p-value and test statistic.
+- Making decisions based on the results of a hypothesis test: Rejecting or failing to reject the null hypothesis.
+- Understanding the practical implications of these decisions in a real-world context.
+
+## Chapter 5: Reporting the Results
+- Proper formatting and presentation of the results from a hypothesis test.
+- Writing a summary and conclusion based on the results of a hypothesis test.
+- Understanding how to clearly communicate these findings to a non-technical audience.
+
+## Review and Practice
+- Review key concepts and terminologies from the week's material.
+- Complete practice problems and exercises related to hypothesis testing.
+- Review and discuss solutions to practice problems.
+
+
+# Hypothesis Testing Study Guide
+
+## 1. Introduction
+- Brief overview of the homework task and explanation of its sections.
+
+## 2. Test Descriptions
+- Description of the two tests to be conducted:
+    1. Test if the average time in queue (TIQ) in the industry is 2.5 minutes or 150 seconds.
+    2. Test for service time comparing PE with PT.
+
+## 3. Hypothesis Setting for First Test
+- Formulation of null and alternative hypotheses:
+    - Null hypothesis (H0): Average TIQ is greater than or equal to 150 seconds.
+    - Alternative hypothesis (H1): Average TIQ is less than 150 seconds.
+
+## 4. Test Determination
+- Criteria for choosing a z-test due to large sample size.
+- Computation of critical value for the test using Excel formula `=NORM.S.INV(0.05)`.
+
+## 5. Hypothesis Testing Calculation for First Test
+- Steps to perform the z-test:
+    1. Calculation of the average TIQ using Excel's `AVERAGE` function.
+    2. Calculation of the standard deviation using Excel's `STDEV` function.
+    3. Determining the number of observations.
+    4. Computation of the z-statistics using the calculated values and the z-test formula.
+
+## 6. Conducting the Second Test
+- Hypothesis setting for the second test comparing service time of PT and PE:
+    - Null hypothesis (H0): Service time of PE is greater than or equal to PT.
+    - Alternative hypothesis (H1): Service time of PE is less than PT.
+- Performing the same procedures as in the first test: selection of test (z-test due to large data set), calculation of critical value, and computation of z-statistics using the respective dataset.
+    
+## 7. Decision Making Based on the Test Results
+- Explanation on how to make a decision based on the z-statistics: either to reject the null hypothesis or fail to reject it.
+- Clarification on common mistakes made by students when interpreting the z-score (e.g., neglecting the direction of inequality).
+- Discussion on the interpretation of test results and their implications for the business (e.g., if null hypothesis is true, what should the company do?).
+
+## 8. Writing a Report
+- Explanation on how to write a report summarizing all the five steps of the hypothesis testing process.
+- Emphasis on addressing all the required points in the assignment.
+
+## 9. Conclusion
+- Final advice and suggestions for students to perform these tests using their own datasets and interpret the results correctly.
+- Encouragement to write a concise summary of the actions a company should take based on the test results.
+- Appreciation for the students' hard work.
 
 ## Quizzes
 
